@@ -75,7 +75,7 @@ p{
   width:100%;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: end;
   height: 100px;
   padding: 0px 50px;
   color: white;
@@ -147,14 +147,6 @@ p{
     text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
     border-radius: 5px;
     box-shadow: 0 0 15px rgba(0,0,0,0.2);
-  }
-
-  .footer-links a {
-    color: rgb(248, 248, 248);
-    opacity: 0.5;
-    text-decoration: none;
-    font-size: 10px;
-    padding: 0px 0px;
   }
 
 }
