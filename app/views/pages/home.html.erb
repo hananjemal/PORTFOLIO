@@ -1,58 +1,34 @@
-<div style= "height: 100vh">
-  <%# <div class="navbar navbar-expand-sm navbar-light navbar-lewagon">
-    <div class="container-fluid">
-      <div style="display: flex; padding:20px;">
-        <%= link_to "Contact Me", contact_path, style:"color: white;"  %>
-        <%# <h2 style="display:flex; align-items:center; font-family: 'Roboto', sans-serif; color:#A95534;" onmouseover="this.style.color=' #D77149 ';" onmouseout="this.style.color='#A95534';">/hanan.codes</h2>
+<div>
+  <div>
+    <div class="navbar navbar-expand-sm navbar-light navbar-lewagon">
+      <div class="container-fluid">
+        <div style="display: flex; padding:20px;">
+          <%= link_to "/hanan.codes", root_path, style: "font-family: 'Roboto', sans-serif; color:#A95534; font-size: 25px; font-weight: bold;", onmouseover: "this.style.color=' #D77149 ';", onmouseout: "this.style.color='#A95534';"%>
+        </div>
+        <div>
+        <%= link_to "Contact Me", contact_path, class: "custom-button-navbar"%>
+        </div>
       </div>
     </div>
-  </div> %>
-  <div class="container" >
-    <div class="card">
-      <h2>/About</h2>
-      <h3>Software Developer</h3>
-      <p>
-      Hi there my name is Hanan Jemal. I am a Full stack Web developer
-      I'm passionate about design, learning new skills and working with childeren
-      </p>
-    </div>
-
-    <div class="card" style="background-color: #BDCEAE;">
-      <h2>/Work</h2>
-      <div class="cards">
-      <div>
-        <div style="display: flex; justify-content: center">
-          <div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('<%= asset_path('BBB.png')%>')">
-          <a href="https://rails-borrow-bags-n-belts-app-6ce5c007134d.herokuapp.com/">BBB</a>
-          </div>
-        </div>
-        <p>Market place website, where the user can both rent and lease bags and belts for various occasions</p>
+    <div class="container" >
+      <div class="card">
+        <h2>About</h2>
+        <h3>Hello, I'm Hanan</h3>
+        <p>
+        I'm a Full Stack Web Developer with a unique journey that's taken me from the classrooms of computer science in China to the world of web development.
+        After completing my studies in computer science in China, I embarked on an unexpected adventure: becoming a kindergarten teacher. While nurturing young minds, I discovered a newfound joy in teaching and connecting with children. Simultaneously, I began self-teaching the fundamentals of web development during my spare time.
+        Driven by a desire to shift gears and pursue my dream of becoming a software engineer, I took a leap of faith and enrolled in a web development bootcamp in Shanghai. It was there that I honed my skills and had the opportunity to work on exciting projects that expanded my knowledge and expertise.
+        I'm passionate about learning new skills and am constantly on the lookout for ways to enhance my capabilities.
+        </p>
+        <p>
+        I'm always eager to embrace new challenges.
+        Feel free to reach out to me if you'd like to connect, collaborate, or simply chat about web development, teaching, or life's adventures.
+        </p>
+        <h3 style="color:#D77149">Thank you for visiting my corner of the web.</h3>
       </div>
-      <div>
-        <div style="display: flex; justify-content: center">
-        <div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('<%= asset_path('WISIT.png')%>')">
-        <a href="http://www.wisit.pro">WISIT</a>
-        </div>
-        </div>
-        <p>Language Learning platform where you can make flashcards of daily items in 8 Langugaes using AI</p>
-      </div>
+      <div style="display: flex; justify-content: center; align-items: center; margin-bottom: 100px;">
+      <%= link_to "Projects", projects_path, class: "custom-button-navbar", style: "display: flex; align-items: center; padding:30px; font-size: 20px;"%>
       </div>
     </div>
-  </div>
-</div>
-
-<div class="footer">
-  <div class="footer-links">
-      <ul class="list-inline">
-        <li>
-          <a href="https://github.com/hananjemal" target="_blank"><i class="fa-brands fa-github fa-lg"></i></a>
-        </li>
-        <li>
-          <a href="https://www.instagram.com/hananjemal_/" target="_blank"><i class="fab fa-instagram fa-lg"></i></a>
-        </li>
-      </ul>
-  </div>
-  <div class="footer-copyright">
-    © 2023 hanan.codes
   </div>
 </div>

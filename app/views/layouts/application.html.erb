@@ -15,7 +15,22 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap" rel="stylesheet">
   </head>
 
-  <body style=" background-image: url('<%= asset_path('background2.jpg')%>')">
+  <body style=" background-image: url('<%= asset_path('background2.jpg')%>');  min-height: 100vh">
     <%= yield %>
+    <div class="footer">
+      <div class="footer-links">
+          <ul class="list-inline">
+            <li>
+              <a href="https://github.com/hananjemal" target="_blank"><i class="fa-brands fa-github fa-lg"></i></a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/hananjemal_/" target="_blank"><i class="fab fa-instagram fa-lg"></i></a>
+            </li>
+          </ul>
+      </div>
+      <div class="footer-copyright">
+        © 2023 hanan.codes
+      </div>
+    </div>
   </body>
 </html>

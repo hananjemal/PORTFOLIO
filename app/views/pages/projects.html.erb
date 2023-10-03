@@ -1,0 +1,38 @@
+<%# <div style="min-height: 100vh"> %>
+  <div class="navbar navbar-expand-sm navbar-light navbar-lewagon">
+      <div class="container-fluid" style="justify-content: end; height: 117.5px">
+        <div style="display: flex;">
+          <div>
+          <%= link_to "About", root_path, class: "custom-button-navbar"%>
+          </div>
+          <div style="margin-left: 15px;">
+          <%= link_to "Contact Me", contact_path, class: "custom-button-navbar"%>
+          </div>
+        </div>
+      </div>
+  </div>
+  <div class="container">
+    <div class="card" style="background-color: #BDCEAE; margin: 101px auto;">
+      <h2 style="font-weight: bold; font-size: 24px; color: #D77149 ">PROJECTS</h2>
+      <div class="cards">
+        <div>
+          <div style="display: flex; justify-content: center">
+            <div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('<%= asset_path('BBB.png')%>')">
+            <a href="https://rails-borrow-bags-n-belts-app-6ce5c007134d.herokuapp.com/">BBB</a>
+            </div>
+          </div>
+          <p>Market place website, where the user can both rent and lease bags and belts for various occasions</p>
+        </div>
+
+        <div>
+          <div style="display: flex; justify-content: center">
+            <div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('<%= asset_path('WISIT.png')%>')">
+            <a href="http://www.wisit.pro">WISIT</a>
+            </div>
+          </div>
+          <p>Language Learning platform where you can make flashcards of daily items in 8 Langugaes using AI</p>
+        </div>
+      </div>
+    </div>
+  </div>
+<%# </div> %>
