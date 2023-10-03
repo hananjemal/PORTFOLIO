@@ -1,11 +1,42 @@
 // Specific CSS for your home-page
 // color pallate
-.nav{
-color1 : #D77149;
-color2 : #A9343A;
-color3 : #451813;
-color4 : #100301;
-color5 : #D77149;
-color6 : #C85E60;
-navtext: #A95534;
+// .nav{
+// color1 : #D77149;
+// color2 : #A9343A;
+// color3 : #451813;
+// color4 : #100301;
+// color5 : #D77149;
+// color6 : #C85E60;
+// navtext: #A95534;
+// }
+
+p{
+  // color: whitesmoke;
+  font-family:'Gill Sans';
+  font-size: 17px;
+  line-height: 1.6;
+}
+
+h2,h3{
+  color: whitesmoke;
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  margin:2%;
+}
+
+a{
+  color: white;
+  text-decoration: dashed;
+  margin: 20px;
+}
+
+a:hover {
+  color: black;
+}
+
+img{
+  border-radius: 50%;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+
 }

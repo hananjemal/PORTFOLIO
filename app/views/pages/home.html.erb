@@ -1,24 +1,48 @@
-<%# <div class="navbar navbar-expand-sm navbar-light navbar-lewagon">
-  <div class="container-fluid">
-    <div style="display: flex; padding:20px;">
-      <%# <a class="navbar-brand" href="#"> %>
+<div style= "height: 100vh">
+  <%# <div class="navbar navbar-expand-sm navbar-light navbar-lewagon">
+    <div class="container-fluid">
+      <div style="display: flex; padding:20px;">
+        <%= link_to "Contact Me", contact_path, style:"color: white;"  %>
+        <%# <h2 style="display:flex; align-items:center; font-family: 'Roboto', sans-serif; color:#A95534;" onmouseover="this.style.color=' #D77149 ';" onmouseout="this.style.color='#A95534';">/hanan.codes</h2>
+      </div>
+    </div>
+  </div> %>
+  <div class="container" >
+    <div class="card">
+      <h2>/About</h2>
+      <h3>Software Developer</h3>
+      <p>
+      Hi there my name is Hanan Jemal. I am a Full stack Web developer
+      I'm passionate about design, learning new skills and working with childeren
+      </p>
+    </div>
 
-      <%# </a> %>
-      <%# <h2 style="display:flex; align-items:center; font-family: 'Roboto', sans-serif; color:#A95534;" onmouseover="this.style.color=' #D77149 ';" onmouseout="this.style.color='#A95534';">/ hanan.codes</h2>
-</div> %>
+    <div class="card" style="background-color: #BDCEAE;">
+      <h2>/Work</h2>
+      <div class="cards">
+      <div>
+        <div style="display: flex; justify-content: center">
+          <div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('<%= asset_path('BBB.png')%>')">
+          <a href="https://rails-borrow-bags-n-belts-app-6ce5c007134d.herokuapp.com/">BBB</a>
+          </div>
+        </div>
+        <p>Market place website, where the user can both rent and lease bags and belts for various occasions</p>
+      </div>
+      <div>
+        <div style="display: flex; justify-content: center">
+        <div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('<%= asset_path('WISIT.png')%>')">
+        <a href="http://www.wisit.pro">WISIT</a>
+        </div>
+        </div>
+        <p>Language Learning platform where you can make flashcards of daily items in 8 Langugaes using AI</p>
+      </div>
+      </div>
+    </div>
+  </div>
+</div>
 
-<div class="container">
-      <div class="card">
-
-        <img src="images/IMG_1338.JPG" width="140px" height="120px" alt="hanan jemal">
-        <h2>I'm Hanan</h2>
-        <h3>Software Developer</h3>
-        <p>
-        I am an Ethiopian living in China. Im currently studying in Shanghai
-        and im loving it here. I love animals, nature and all things good.
-        </p>
-
-
+<div class="footer">
+  <div class="footer-links">
       <ul class="list-inline">
         <li>
           <a href="https://github.com/hananjemal" target="_blank"><i class="fa-brands fa-github fa-lg"></i></a>
@@ -27,5 +51,8 @@
           <a href="https://www.instagram.com/hananjemal_/" target="_blank"><i class="fab fa-instagram fa-lg"></i></a>
         </li>
       </ul>
-      </div>
-    </div>
+  </div>
+  <div class="footer-copyright">
+    © 2023 hanan.codes
+  </div>
+</div>
